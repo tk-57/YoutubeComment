@@ -10,19 +10,19 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class CutOutAI {
+public class YoutubeComment {
 
     //チャンネルID
     String channelId = "";
 
     public static void main(String[] args) throws IOException, InterruptedException  {
-        new CutOutAI();
+        new YoutubeComment();
     }
 
     private Gson gson;
     private Requests requests;
 
-    public CutOutAI() throws IOException, InterruptedException {
+    public YoutubeComment() throws IOException, InterruptedException {
         gson = new GsonBuilder().create();
         requests = new Requests();
 
